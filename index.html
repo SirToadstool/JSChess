@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+    <head>
+        <title>
+            Chess
+        </title>
+        <style>
+            .container {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: auto;
+            }
+
+            .board {
+                display: grid;
+                grid-template-columns: repeat(8, 60px);
+                grid-template-rows: repeat(8, 60px);
+            }
+
+            .cell {
+                width: 60px;
+                height: 86px;
+                border: 1px solid black;
+            }
+            
+            .light {
+                background-color: wheat;
+            }
+
+            .dark {
+                background-color: grey;
+            }
+
+            .piece {
+                width: 60px;
+                height: 60px;
+            }
+        </style>
+    </head>>
+    <body>
+        <div class="container">
+            <div id="board" class="board"></div>
+        </div>
+        <script src="script.js"></script>
+    </body>>
+</html>
